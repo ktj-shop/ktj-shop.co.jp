@@ -1,0 +1,36 @@
+<html>
+<head>
+<title>esimiossetting</title>
+<style>
+body,table,tr,td {font-size:9pt;}
+</style>
+ 
+<script>
+function img_resize(img){
+    var mywidth = 1365;
+ 
+    if( img.width > mywidth ){
+        r = mywidth / img.width;
+        w = img.width * r;
+        h = img.height * r;
+ 
+        img.width = w;
+        img.height = h;
+    }
+}
+</script>
+</head>
+ 
+<body>
+ 
+<table border=0 cellpadding=0 cellspacing=0>
+<tr>
+        <td><img src="../assets/img/esimsetting-ios.png" border=0 onLoad="img_resize(this);"></td>
+</tr>
+<tr>
+        <td><img src="../assets/img/dualsimsetting-ios.png" border=0 onLoad="img_resize(this);"></td>
+</tr>
+</table>
+ 
+</body>
+</html>
