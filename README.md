@@ -1,1 +1,1 @@
-# ktj-shop.co.jp
+# ktj-shop.github.io
